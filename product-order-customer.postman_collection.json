@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "7260ec2b-94d4-d8b4-b37e-d44412c423b4",
+		"name": "product-order-customer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "fetch all products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/product/"
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/product/category/Mobile/lowerpricerange/20000"
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/order/category/Speaker"
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/product/category/Mobile/discount/10"
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/product/costliest/category/Earphone"
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise9",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/order/ordedate/2021-09-03/product"
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise11",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/order/productcount"
+			},
+			"response": []
+		},
+		{
+			"name": "Excercise14",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/product/datamap/category-product-list"
+			},
+			"response": []
+		}
+	]
+}
